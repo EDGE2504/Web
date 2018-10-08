@@ -1,0 +1,29 @@
+#body, html{
+	margin: 0;
+	padding: 0;
+}
+#content li{
+	list-style-type:none;
+	border-bottom: 1px dotted black;
+}
+p {
+	color:#000000;
+}
+.row {
+	border:1px solid black;
+}
+#footer .row{
+	margin:0;!important
+	
+}
+p1{
+	font-size:200%;
+}
+b1{
+	font-size:70%;
+}
+
+img {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
