@@ -1,0 +1,38 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+}
+body {
+	font-size: 2em;
+}
+.container {
+	display: inline-block;
+}
+#display, .button, .bigbutton {
+	border-width: 2px;
+	border-color: #000;
+	border-style: solid;
+	background-color: #fff;
+	display: inline-block;
+	margin: 3px;
+	text-align: center;
+}
+.button:hover, .bigbutton:hover {
+	color: #fff;
+	background-color: #000;
+}
+.button {
+	width: 73px;
+}
+.bigbutton {
+	width: 164px;
+}
+#display {
+	width: 344px;
+	height: 80px;
+	padding-right: 2px;
+	text-align: right;
+	border-radius: 0;
+}
